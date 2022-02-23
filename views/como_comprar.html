@@ -8,6 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -27,9 +28,9 @@
 		</nav>
 	</header>
 	<main>
-		<img src="../assets/img/limpieza3.jpg" class="img_como_comprar">
+		<img src="../assets/img/limpieza3.jpg" class="img_como_comprar" data-aos="fade-up">
 		<h1 class="title_como_comprar">PREGUNTAS FRECUENTES</h1>
-		<div class="container-grid-como-comprar">
+		<div class="container-grid-como-comprar" data-aos="flip-left">
 			<h3 class="title-1">¿Existe un monto mínimo de compra?</h3>
 				<p class="p-1">- Si la compra se retira por el local de venta no existe monto mínimo alguno. <br>
 			- El monto mínimo de compra para la web es de $2000 y el envío será GRATIS. (Únicamente dentro del rango de entrega local).</p>
@@ -66,5 +67,9 @@
 				<img src="../assets/img/instagramlogo.png" alt="instagramlogo">
 			</div>		
 	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
 </body>
 </html>

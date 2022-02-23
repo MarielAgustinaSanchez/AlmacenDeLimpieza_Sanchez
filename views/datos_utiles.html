@@ -8,6 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -27,8 +28,8 @@
 		</nav>
 	</header>
 	<main class="container-grid-datos-utiles">
-		<img src="../assets/img/limpieza3.jpg" class="img-datos-utiles">
-		<div class="datos">
+		<img src="../assets/img/limpieza3.jpg" class="img-datos-utiles" data-aos="fade-up">
+		<div class="datos" data-aos="zoom-out-down">
 			<h1>DATOS UTILES</h1>
 			 <h3>¿Cuál es la manera indicada para diluir la lavandina?</h3>
 			<p>Para desinfectar grandes superficies como pisos y exteriores, diluir 1 taza (240 ml) de lavandina en 5 litros de agua. Dejar actuar la solución sobre la superficie durante 5 minutos, enjuagar y secar.</p>
@@ -64,6 +65,9 @@
 				<img src="../assets/img/instagramlogo.png" alt="instagramlogo">
 			</div>		
 	</footer>
-	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
 </body>
 </html>

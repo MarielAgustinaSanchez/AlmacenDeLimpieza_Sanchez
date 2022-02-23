@@ -8,6 +8,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -28,19 +29,28 @@
 	</header>
 	<main class= container-grid-inicio>
 		<div class="imgInicio">
-			<img src="assets/img/limpieza5.png" alt="Limpieza5" class="imgInicio">
+			<img src="assets/img/limpieza5.png" alt="Limpieza5" class="imgInicio"  data-aos="zoom-in-up">
 		</div>
-		<div class=item1>
+		<div class=item1 data-aos="fade-zoom-in"
+     		data-aos-easing="ease-in-back"
+     		data-aos-delay="300"
+     		data-aos-offset="0">
 				<h3>ELEGI TU FORMA DE PAGO</h3>
 					<p>Pagá en efectivo en la entrega,
 					transferencia bancaria o mercado pago</p>
 			</div >	
-		<div class=item2>
+		<div class=item2 data-aos="fade-zoom-in"
+     		data-aos-easing="ease-in-back"
+     		data-aos-delay="300"
+     		data-aos-offset="0">
 				<h3>ATENCION A ORGANIZACIONES</h3>
 					<p>Si administrás un consorcio, una empresa 
 					o escuela contactate con nosotros</p>
 			</div>
-		<div class="item3">
+		<div class="item3" data-aos="fade-zoom-in"
+     		data-aos-easing="ease-in-back"
+     		data-aos-delay="300"
+     		data-aos-offset="0">
 				<h3>LISTA DE PRECIOS</h3>
 					<p>Revisá nuestra lista completa, armá tu carrito o hacenos
 					tu pedido por Whatsapp y te lo enviamos a domicilio</p>
@@ -79,5 +89,9 @@
 				<img src="assets/img/instagramlogo.png" alt="instagramlogo">
 			</div>		
 	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
 </body>
 </html>

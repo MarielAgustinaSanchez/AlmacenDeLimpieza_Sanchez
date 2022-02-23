@@ -58,6 +58,7 @@ a:hover {
 
 .imgInicio {
 	grid-area: imgInicio;
+	width: 100%;
 }
 
 .titleInicio{
@@ -69,6 +70,7 @@ a:hover {
 	background:#A3D8F4;
 	padding-left: 2rem;
 	padding-right: 2rem;
+
 }
 
 .item2{
@@ -175,7 +177,7 @@ form {
 
 iframe {
 	width: 300px;
-    height: 300px
+    height: 300px; 
 }
 
 
