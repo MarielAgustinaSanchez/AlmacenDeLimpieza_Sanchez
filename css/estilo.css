@@ -1,9 +1,7 @@
-/* header */
-
 * {
-	font-family: 'Open Sans', sans-serif;}
+    font-family: 'Open Sans', sans-serif;
+}
 
-/* FOOTER */
 
 footer{
 	background: #A3D8F4;
@@ -30,6 +28,7 @@ a:hover {
 	 background: #A3D8F4 !important;
 	  margin-bottom:20px;
 }
+
 .card{
     margin-bottom:20px;
   }  
