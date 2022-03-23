@@ -1,0 +1,53 @@
+/* GRID DATOS UTILES */
+
+.img-datos-utiles{
+	grid-area:img-datos-utiles;
+}
+
+.datos{
+	grid-area: datos;
+	font-family: $font;
+}
+
+.container-grid-datos-utiles{
+	display: grid;
+}
+
+/* 	MEDIA QUERY DATOS UTILES */
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+    .container-grid-datos-utiles {
+ 	grid-template-rows: 1fr 9fr;
+	grid-template-columns:1fr;
+	grid-template-areas:
+	"img-datos-utiles"
+	"datos";
+	}
+	.img-datos-utiles {
+	width:100%
+	}
+
+    .nav {
+    	display: none;
+    }
+    
+    footer {
+    	display: block;
+    }
+}	
+
+/* notebooks desktop */	
+
+@media only screen and (min-width: 481px){
+    .container-grid-datos-utiles{
+    grid-template-rows:1fr;
+	grid-template-columns:1fr;
+	grid-template-areas:
+	"img-datos-utiles"
+	"datos";
+	}
+	.img-datos-utiles {
+	width:100%	
+	}
+}
