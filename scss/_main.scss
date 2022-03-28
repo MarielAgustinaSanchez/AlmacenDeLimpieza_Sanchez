@@ -51,21 +51,21 @@ iframe {
 
 .container-grid-datos-utiles{
 	display: grid;
-}
-
-.tituloDatos{
+	
+	.tituloDatos{
 	grid-area:titulo;
 	display: flex;
 	justify-content:center;
 	font-family:$font;
-}
+	}
 
-.img1{
+	.img1{
 	grid-area:img1;
+	justify-self:self-end;
 	padding-bottom: 40px;
-}
+	}
 
-.text1{
+	.text1{
 	grid-area:text1;
 	font-family: $font;
 	display: flex;
@@ -73,15 +73,16 @@ iframe {
 	justify-content:center;
 	text-align:left;
 	padding-bottom: 40px;
-}
+	padding-right: 40px;
+	}
 
-.img2{
+	.img2{
 	grid-area:img2;
-	justify-self:self-end;
+	justify-self:self-start;
 	padding-bottom: 40px;
-}
+	}
 
-.text2{
+	.text2{
 	grid-area:text2;
 	font-family: $font;
 	display: flex;
@@ -89,17 +90,24 @@ iframe {
 	justify-content:center;
 	text-align:right;
 	padding-bottom: 40px;
-}
+	padding-left: 40px;
+	}
 
-.img3{
+	.img3{
 	grid-area:img3;
-}
+	justify-self:self-end;
+	padding-bottom: 40px;
 
-.text3{
+	}
+
+	.text3{
 	grid-area:text3;
 	font-family: $font;
 	display: flex;
 	flex-direction:column;
-	justify-content:center;
 	text-align:left;
+	padding-bottom: 40px;
+	padding-right: 40px;
+	}
 }
+

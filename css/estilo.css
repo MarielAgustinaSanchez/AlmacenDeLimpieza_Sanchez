@@ -71,50 +71,49 @@ iframe {
 
 .container-grid-datos-utiles {
   display: grid; }
-
-.tituloDatos {
-  grid-area: titulo;
-  display: flex;
-  justify-content: center;
-  font-family: "Open Sans", sans-serif; }
-
-.img1 {
-  grid-area: img1;
-  padding-bottom: 40px; }
-
-.text1 {
-  grid-area: text1;
-  font-family: "Open Sans", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  padding-bottom: 40px; }
-
-.img2 {
-  grid-area: img2;
-  justify-self: self-end;
-  padding-bottom: 40px; }
-
-.text2 {
-  grid-area: text2;
-  font-family: "Open Sans", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: right;
-  padding-bottom: 40px; }
-
-.img3 {
-  grid-area: img3; }
-
-.text3 {
-  grid-area: text3;
-  font-family: "Open Sans", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left; }
+  .container-grid-datos-utiles .tituloDatos {
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif; }
+  .container-grid-datos-utiles .img1 {
+    grid-area: img1;
+    justify-self: self-end;
+    padding-bottom: 40px; }
+  .container-grid-datos-utiles .text1 {
+    grid-area: text1;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-right: 40px; }
+  .container-grid-datos-utiles .img2 {
+    grid-area: img2;
+    justify-self: self-start;
+    padding-bottom: 40px; }
+  .container-grid-datos-utiles .text2 {
+    grid-area: text2;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    padding-bottom: 40px;
+    padding-left: 40px; }
+  .container-grid-datos-utiles .img3 {
+    grid-area: img3;
+    justify-self: self-end;
+    padding-bottom: 40px; }
+  .container-grid-datos-utiles .text3 {
+    grid-area: text3;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 40px;
+    padding-right: 40px; }
 
 footer {
   background-color: #A3D8F4;
@@ -140,20 +139,13 @@ footer {
 /* mobile */
 @media only screen and (max-width: 480px) {
   .container-grid-datos-utiles {
-    grid-template-rows: 5% 15% 15% 15% 12% 15% 22%;
+    grid-template-rows: 5% 12% 18% 12% 17% 12% 23%;
     grid-template-columns: 1fr;
     grid-template-areas: "titulo" "img1" "text1" "img2" "text2" "img3" "text3"; }
   .nav {
     display: none; }
   footer {
-    display: block;
-    width: 100%; }
-  .img1 {
-    width: 100%; }
-  .img2 {
-    width: 100%; }
-  .img3 {
-    width: 100%; } }
+    display: block; } }
 
 /* notebooks desktop */
 @media only screen and (min-width: 481px) {

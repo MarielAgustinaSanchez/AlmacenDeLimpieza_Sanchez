@@ -4,7 +4,7 @@
 /* mobile */
 @media only screen and (max-width: 480px) {
     .container-grid-datos-utiles {
- 	grid-template-rows: 5% 15% 15% 15% 12% 15% 22%;
+ 	grid-template-rows: 5% 12% 18% 12% 17% 12% 23%;
 	grid-template-columns:1fr;
 	grid-template-areas:
 	"titulo"
@@ -15,23 +15,12 @@
 	"img3"
 	"text3";
 	}
-	
     .nav {
     	display: none;
   	}
   	
   	footer{
   		display: block;
-  		width: 100%;
-  	}
-  	.img1{
-  		width: 100%;
-  	}
-  	.img2{
-  		width: 100%;
-  	}
-  	.img3{
-  		width: 100%;
   	}
 }	
 
