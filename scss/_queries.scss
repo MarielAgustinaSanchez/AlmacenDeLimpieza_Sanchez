@@ -1,53 +1,51 @@
-/* GRID DATOS UTILES */
-
-.img-datos-utiles{
-	grid-area:img-datos-utiles;
-}
-
-.datos{
-	grid-area: datos;
-	font-family: $font;
-}
-
-.container-grid-datos-utiles{
-	display: grid;
-}
 
 /* 	MEDIA QUERY DATOS UTILES */
 
 /* mobile */
 @media only screen and (max-width: 480px) {
     .container-grid-datos-utiles {
- 	grid-template-rows: 1fr 9fr;
+ 	grid-template-rows: 5% 15% 15% 15% 12% 15% 22%;
 	grid-template-columns:1fr;
 	grid-template-areas:
-	"img-datos-utiles"
-	"datos";
+	"titulo"
+	"img1"
+	"text1"
+	"img2"
+	"text2"
+	"img3"
+	"text3";
 	}
-	.img-datos-utiles {
-	width:100%
-	}
-
+	
     .nav {
     	display: none;
-    }
-    
-    footer {
-    	display: block;
-    }
+  	}
+  	
+  	footer{
+  		display: block;
+  		width: 100%;
+  	}
+  	.img1{
+  		width: 100%;
+  	}
+  	.img2{
+  		width: 100%;
+  	}
+  	.img3{
+  		width: 100%;
+  	}
 }	
 
 /* notebooks desktop */	
 
 @media only screen and (min-width: 481px){
-    .container-grid-datos-utiles{
-    grid-template-rows:1fr;
-	grid-template-columns:1fr;
+ .container-grid-datos-utiles {
+ 	grid-template-rows: 6% 30% 30% 33%;
+	grid-template-columns:1fr 1fr 1fr;
+	gap:20px;
 	grid-template-areas:
-	"img-datos-utiles"
-	"datos";
-	}
-	.img-datos-utiles {
-	width:100%	
+	"titulo titulo titulo"
+	"img1 text1 text1"
+	"text2 text2 img2"
+	"img3 text3 text3";
 	}
 }

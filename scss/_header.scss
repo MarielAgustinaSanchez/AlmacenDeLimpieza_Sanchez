@@ -1,24 +1,38 @@
 .navbar{
 	background-color: $color-primario !important;
+	.container-fluid{
+		.collapse{
+			ul{
+				li{
+					a{
+					&:hover {
+					color: white
+					}
+				}
+			}
+		}
+	}
+  }			
 }
 
-iframe {	
-	width: 300px;
-    height: 300px;
-}
 
 .logo1 {
 	display: flex;
-	justify-content: center;
+	justify-content:center;
+}
+
+.logoPrincipal{
+	padding-bottom: 20px;
+	width: 200px;
 }
 
 .nav {
 	ul { 
 		display: flex;
 		background: #A3D8F4;
-		justify-content: space-evenly;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		justify-content: center;
+		padding-top: 16px;
+		padding-bottom: 16px;
 		li {
 		display: inline;
 		padding-left: 10px; 
@@ -28,7 +42,7 @@ iframe {
 		}
 		a { 
 		text-decoration: none;
-		font-size: 14px;
+		font-size: 15px;
 		color: black;
 		&:hover {
 		color: white;}
@@ -37,20 +51,10 @@ iframe {
 }
 
 
-.img-datos-utiles{
-	grid-area:img-datos-utiles;
-}
 
-.datos{
-	grid-area: datos;
-	font-family: $font;
-	margin-left: 40px;
-	margin-right: 40px;
-}
 
-.container-grid-datos-utiles{
-	display: grid;
-}
+
+
 
 
 

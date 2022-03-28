@@ -15,7 +15,7 @@
 </head>
 <body>
 	<header>
-		<div class="mx-auto" style="width:200px; padding-bottom: 20px;">
+		<div class="logoPrincipal mx-auto">
 			<img src="assets/img/logo.png" alt="logo">
 		</div>
 		<nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -24,7 +24,7 @@
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
 		    <div class="collapse navbar-collapse" id="navbarNav">
-		    <ul class="navbar-nav mx-auto">
+		      <ul class="navbar-nav mx-auto">
 		        <li class="nav-item">
 		          <a class="nav-link active" aria-current="page" href="#">INICIO</a>
 		        </li>
@@ -35,10 +35,10 @@
 		          <a class="nav-link" href="views/productos.html">PRODUCTOS</a>
 		        </li>
 		        <li class="nav-item">
-		          <a class="nav-link" href="views/como_comprar.html">¿COMO COMPRAR?</a>
+		          <a class="nav-link" href="views/como_comprar.html">¿CÓMO COMPRAR?</a>
 		        </li>
 		        <li class="nav-item">
-		          <a class="nav-link" href="views/datos_utiles.html">DATOS UTILES</a>
+		          <a class="nav-link" href="views/datos_utiles.html">DATOS ÚTILES</a>
 		        </li>
 		      </ul>
 		    </div>
@@ -46,13 +46,13 @@
 		</nav>
 	</header>
 	<main>
-		<div style="padding-bottom: 20px; padding-top: 20px">
+		<div class="imgPortada">
 			<img class="img-fluid" src="assets/img/limpieza5.png" alt="Limpieza5"  data-aos="zoom-in-up">
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-12" data-aos="flip-right" style="padding-bottom:20px";>
-	     			<div class="card text-center h-100 text-white" style="width: 18rem; background: #199ef3;">
+				<div class="cards col-md-4 col-12" data-aos="flip-right">
+	     			<div class="card cardInicio text-center h-100 text-white">
 	     			<div class="card-header">
     				<strong>ELEGI TU FORMA DE PAGO</strong>
   					</div>
@@ -61,10 +61,10 @@
 					  </div>
 				    </div>
 				  </div>		
-				<div class= "col-md-4 col-12" data-aos="flip-right" style="padding-bottom:20px";>
-	     		    <div class="card text-center h-100 text-white" style="width: 18rem; background: #199ef3;">
+				<div class= "cards col-md-4 col-12" data-aos="flip-right">
+	     		    <div class="card cardInicio text-center h-100 text-white">
 	     			<div class="card-header">
-    				<strong>ATENCION A ORGANIZACIONES</strong>
+    				<strong>ATENCIÓN A ORGANIZACIONES</strong>
   					</div>
   					<div class="card-body">
 						<p class="card-text">Si administrás un consorcio, una empresa 
@@ -72,8 +72,8 @@
 					</div>
 				   </div>
 				  </div>	
-			    <div class="col-md-4 col-12" data-aos="flip-right" style="padding-bottom:20px";>
-	     		    <div class="card text-center h-100 text-white" style="width: 18rem; background: #199ef3;">
+			    <div class=" cards col-md-4 col-12" data-aos="flip-right">
+	     		    <div class="card cardInicio text-center h-100 text-white">
 	     			<div class="card-header">
     				<strong>LISTA DE PRECIOS</strong>
   					</div>
@@ -85,12 +85,12 @@
 				</div>
 			</div>
 		</div>			
-		<div style="padding-bottom: 20px";>			
-			<h1 class="text-center" data-aos="flip-left">PRODUCTOS DESTACADOS </h1>
+		<div>			
+			<h1 class="titulosPrincipales text-center" data-aos="flip-left">PRODUCTOS DESTACADOS </h1>
 		</div>
 		<div class="container">
-			<div class="row" style="padding-bottom:20px";>
-				<div class="col-md-3 col-6">
+			<div class="row">
+				<div class="cards col-md-3 col-6">
 					<div class="card shadow" data-aos="flip-right">
 						 	<img src="assets/img/productos1.jpg" class="card-img-top" alt="JabonLiquido">
 				  				<div class="card-body">
@@ -100,7 +100,7 @@
 				  				</div>
 							</div>
 					</div>
-				<div class="col-md-3 col-6">			
+				<div class="cards col-md-3 col-6">			
 						<div class="card shadow" data-aos="flip-right">
 				 			<img src="assets/img/productos2.jpg" class="card-img-top" alt="Suavizante">
 		  						<div class="card-body">
@@ -110,7 +110,7 @@
 		  						</div>
 						</div>
 				   	</div>
-				<div class="col-md-3 col-6">		
+				<div class="cards col-md-3 col-6">		
 				<div class="card shadow" data-aos="flip-right">
 				 			<img src="assets/img/productos3.jpg" class="card-img-top" alt="Suavizante">
 		  					<div class="card-body">
@@ -120,7 +120,7 @@
 		  					</div>
 						</div>
 				</div>
-				<div class="col-md-3 col-6">		
+				<div class="cards col-md-3 col-6">		
 					<div class="card shadow" data-aos="flip-right">
 				 			<img src="assets/img/productos4.jpg" class="card-img-top" alt="Perfumina">
 		  					<div class="card-body">
@@ -134,19 +134,19 @@
 	</main>
 	<footer class="container-fluid">
 		<div class="row">
-		    <div class="col-md-4 col-12" style="padding-right: 30px;">
+		    <div class="logoFooter col-md-4 col-12">
 		        <img src="assets/img/logo.png" alt="logo">
 		        </div>
-		    <div class="col-md-1 col-12">
+		    <div class="col-md-1 col-12"> 
 				</div>
 			<div class="col-md-2 col-12">
 		        <h3>NAVEGACION</h3>
-		          <ul style="padding-left: 0px;">
+		          <ul>
 					<li><a href="#">INICIO</a></li>
 					<li><a href="views/contacto.html">CONTACTO</a></li>
 					<li><a href="views/productos.html">PRODUCTOS</a></li>
-					<li><a href="views/como_comprar.html">¿COMO COMPRAR?</a></li>
-					<li><a href="views/datos_utiles.html">DATOS ÙTILES</a></li>
+					<li><a href="views/como_comprar.html">¿CÓMO COMPRAR?</a></li>
+					<li><a href="views/datos_utiles.html">DATOS ÚTILES</a></li>
 			      </ul>
 		        </div>
 		    <div class="col-md-2 col-12">
